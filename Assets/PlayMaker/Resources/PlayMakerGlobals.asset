@@ -54,6 +54,12 @@ MonoBehaviour:
       networkSync: 0
       value: {fileID: 1319431908502390865, guid: 0bde2e9d0dc893743917ccb99ac18e1e,
         type: 3}
+    - useVariable: 1
+      name: mainCameraObj
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables:
     - useVariable: 1
       name: 
@@ -75,5 +81,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000
-  events: []
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+  events:
+  - ZoneEntered
+  - ZoneExited
