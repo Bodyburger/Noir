@@ -13,7 +13,19 @@ MonoBehaviour:
   m_Name: PlayMakerGlobals
   m_EditorClassIdentifier: 
   variables:
-    floatVariables: []
+    floatVariables:
+    - useVariable: 1
+      name: Input_Vertical
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Input_Horizontal
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     intVariables: []
     boolVariables: []
     stringVariables: []
@@ -21,6 +33,18 @@ MonoBehaviour:
     vector3Variables:
     - useVariable: 1
       name: 
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: playerObjPosition
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: catObjPosition
       tooltip: 
       showInInspector: 0
       networkSync: 0
@@ -34,15 +58,26 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: {fileID: 1319431908502390865, guid: 0bde2e9d0dc893743917ccb99ac18e1e,
-        type: 3}
+      value: {fileID: 0}
+    - useVariable: 1
+      name: mainCameraObj
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: catHolderObj
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables:
     - useVariable: 1
       name: 
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      typeName: 
+      typeName: UnityEngine.Object
       value: {fileID: 0}
     - useVariable: 1
       name: playerObjTransform
@@ -57,5 +92,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000
-  events: []
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  events:
+  - ZoneEntered
+  - ZoneExited
