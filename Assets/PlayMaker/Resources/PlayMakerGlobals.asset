@@ -26,7 +26,13 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
-    intVariables: []
+    intVariables:
+    - useVariable: 1
+      name: cigaretteInt
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
     boolVariables: []
     stringVariables: []
     vector2Variables: []
@@ -89,6 +95,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
+    - useVariable: 1
+      name: officeIntroImage
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables:
     - useVariable: 1
       name: 
@@ -110,7 +122,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - ZoneEntered
   - ZoneExited
