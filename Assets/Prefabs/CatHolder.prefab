@@ -144,7 +144,7 @@ Animation:
   m_Animation: {fileID: 7400000, guid: 04944d5e45b6c69449ab122edcf90cef, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 04944d5e45b6c69449ab122edcf90cef, type: 2}
-  - {fileID: 7400000, guid: 4d4f8076a9e1f4b478cba37ab25ffc92, type: 2}
+  - {fileID: 0}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: isRightleft
+          value: isLeftDown
         fsmObjectParams:
         - useVariable: 0
           name: 
