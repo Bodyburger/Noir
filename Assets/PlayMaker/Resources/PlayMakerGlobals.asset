@@ -26,9 +26,21 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
-    intVariables: []
+    intVariables:
+    - useVariable: 1
+      name: cigaretteInt
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
     boolVariables: []
-    stringVariables: []
+    stringVariables:
+    - useVariable: 1
+      name: cigaretteString
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables: []
     vector3Variables:
     - useVariable: 1
@@ -71,6 +83,36 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: {fileID: 0}
+    - useVariable: 1
+      name: catObj2
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: uiFeedText
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: pussyMagnet
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: officeIntroImage
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: mc_Animator
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
     objectVariables:
     - useVariable: 1
       name: 
@@ -92,7 +134,9 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - ZoneEntered
   - ZoneExited
+  - Lighted
+  - CigaretteOut
